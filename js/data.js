@@ -73,53 +73,21 @@ const PORTFOLIO = {
   /* ---- PROJECTS ---- */
   projects: [
     {
-      title: "Recipe Finder",
-      description:
-        "A React single-page app powered by TheMealDB API with debounced search, category browsing, random meal discovery, and persistent favorites via custom hooks and React Context.",
-      tags: ["React", "Vite", "React Router", "REST API"],
-      github: "https://github.com/benjamin26886/recipe-finder-react",
-      live: "https://benjamin26886.github.io/recipe-finder-react/",
-      featured: true,
-    },
-    {
-      title: "Library REST API",
-      description:
-        "A RESTful API for managing books and authors with relational SQLite schema, search/filter/pagination, request validation, centralized error handling, and Jest + Supertest integration tests.",
-      tags: ["Node.js", "Express", "SQLite", "Jest"],
-      github: "https://github.com/benjamin26886/library-api",
-      live: "",
-    },
-    {
       title: "Kanban Task Manager",
       description:
         "An accessible, dependency-free Kanban board with drag-and-drop columns, keyboard navigation, due-date badges, search/filtering, dark mode, and localStorage persistence.",
       tags: ["HTML5", "CSS3", "JavaScript", "ES Modules"],
       github: "https://github.com/benjamin26886/task-manager",
       live: "https://benjamin26886.github.io/task-manager/",
+      featured: true,
     },
     {
-      title: "Expense Tracker CLI",
+      title: "Developer Portfolio",
       description:
-        "A zero-dependency Python command-line application backed by SQLite for tracking expenses, setting monthly category budgets with warnings, and exporting reports to ASCII tables or CSV.",
-      tags: ["Python", "SQLite", "argparse", "unittest"],
-      github: "https://github.com/benjamin26886/expense-tracker",
-      live: "",
-    },
-    {
-      title: "Bank Account System",
-      description:
-        "A Java 17 console banking system demonstrating object-oriented design — abstract classes, interfaces, polymorphism, custom checked exceptions, BigDecimal money math, and Java Streams analytics.",
-      tags: ["Java 17", "OOP", "Maven", "JUnit 5"],
-      github: "https://github.com/benjamin26886/bank-system-java",
-      live: "",
-    },
-    {
-      title: "UPS Routing Tool",
-      description:
-        "A routing and logistics helper that organises delivery data and optimises routes to save time.",
-      tags: ["JavaScript", "Data"],
-      github: "",
-      live: "",
+        "A fast, responsive, zero-dependency personal portfolio website featuring a custom HTML5 Canvas particle network, dynamic content data model, and scroll reveal animations.",
+      tags: ["HTML5", "CSS3", "JavaScript", "Canvas"],
+      github: "https://github.com/benjamin26886/benjamin26886.github.io",
+      live: "https://benjamin26886.github.io/",
     },
   ],
 
