@@ -82,6 +82,14 @@ const PORTFOLIO = {
       featured: true,
     },
     {
+      title: "Expense Tracker CLI",
+      description:
+        "A zero-dependency Python command-line application backed by SQLite for tracking expenses, setting monthly category budgets with warnings, and exporting reports to ASCII tables or CSV.",
+      tags: ["Python", "SQLite", "argparse", "unittest"],
+      github: "https://github.com/benjamin26886/expense-tracker",
+      live: "",
+    },
+    {
       title: "Developer Portfolio",
       description:
         "A fast, responsive, zero-dependency personal portfolio website featuring a custom HTML5 Canvas particle network, dynamic content data model, and scroll reveal animations.",
